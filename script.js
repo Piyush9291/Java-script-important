@@ -64,7 +64,7 @@
 
 // let name = "piyush"
 // let age = "21"
-// console.log("my name is" + (name + age))
+// // console.log("my name is" + (name + age))
 // console.log (`my name is ${name} and my age is ${age}`)
 
 //  Question 5
@@ -78,3 +78,70 @@
 // let str2 = "20"
 // let num2 = +str2   {the unary plus ( +) opertor is a shoorthand way to convert a string to a number it work similarly to number but is shorter and faster}
 // console.log(num2)
+
+// Question 6
+// What’s the difference between == and ===?
+
+// == (Loose Equality)
+
+// console.log(5 =="5");   
+// console.log(null == undefined);
+// console.log(0 == false);    
+
+// === (Strict Equality
+
+// console.log(5 === "5");   (diffrent types : number vs string)
+// console.log(null === undefined); (different types)
+// console.log(0 === false);  (different types : number vs boolean)
+
+
+//Question 7
+//How can you swap two variables without using a third variable?
+
+//1. Using Arithmetic Operations
+
+// let a = 3
+// let b = 2;
+
+// a = a + b; 
+// console.log(a)  // (3 + 2)
+
+// b = a - b;         
+// console.log(b)  // (5 - 2)
+
+// a = a - b;            
+// console.log(a) // (5 - 3)
+
+// console.log(a)
+// console.log(b)
+
+
+// Question 8
+// What is the use of the typeof operator in JavaScript?
+
+// let name = "piyush"
+// console.log(typeof name)
+
+// var age = 21;
+// console.log(typeof age)
+
+//Question 9
+//How does JavaScript handle type coercion?
+
+//When a non-string value is added to a string, JavaScript converts the non-string value to a string.
+
+// let name = "my name is piyush  my age is " + 20;
+// console.log(name)
+
+// let result = "200" - 100;
+// console.log(result);
+
+// Question 10
+// What are falsy values in JavaScript?
+
+// 1 false
+// 2 0
+// 3 -0
+// 4 ""
+// 5 null
+// 6 nan
