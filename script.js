@@ -145,3 +145,93 @@
 // 4 ""
 // 5 null
 // 6 nan
+
+//What is a higher-order function in JavaScript?
+// How do closures work in JavaScript?
+// Explain the difference between function declarations and function expressions.
+// What is an Immediately Invoked Function Expression (IIFE)?
+// How does the this keyword work in JavaScript?
+// What is the difference between a pure function and an impure function?
+// How do you implement function currying in JavaScript?
+// What is function hoisting?
+// Explain the concept of an arrow function and its differences from traditional functions.
+// What is the difference between call, apply, and bind?
+
+//Question 11
+
+1 //Takes one or more functions as arguments, or
+2 //Returns a function as its result
+
+// map fumction
+
+// const number = [2,4,6,8]
+
+// const double = number.map(function(num){   // map is higher order function that takes a function as an arrgument
+//     return num * 7                        // map function array ke andar loop karta hai or ek new array banata hai 
+// })
+
+// console.log(double)
+
+// filter function
+// const numbers = [ 1,2,3,4,5]
+
+// const evennumber =  numbers.filter((num) => {
+//        return num % 2 === 0;
+// })
+
+// console.log(evennumber);
+
+
+// const numbers = [1,2,3,4,5,6]
+
+// let ans = numbers.find((num) => num === 4);
+// console.log(ans);
+
+// const numbers = [1,2,3,4,5,6]
+
+// let ans = numbers.findIndex((num) => num === 4);
+// console.log(ans);
+
+
+// const numbers = [1,2,3,4,5]
+// let ans = numbers.forEach((num) => console.log(num))
+
+
+// const number = [ 1,2,3,4,5]
+// const newarry = []
+// let ans = number.forEach((num) =>{
+//      newarry.push(num * 2)
+// })
+
+// console.log(newarry);
+ 
+
+// let ans = numbers.map((num) =>{
+//     return num * 3  
+// })
+// console.log(ans)
+
+// Question 12
+// How do closures work in JavaScript?
+
+// function main () {
+//     const name = "piyush"
+
+//     function callmyname () {
+//              console.log(name)
+//     }
+//     callmyname();
+// }
+// main();
+
+// function adder(num){
+//           function add(b){
+//               console.log(num + b)
+//           }
+//           return add;
+// }
+
+// const add = adder(5)
+// add(10)
+// add(15)
+
