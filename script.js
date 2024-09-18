@@ -148,14 +148,6 @@
 
 //What is a higher-order function in JavaScript?
 // How do closures work in JavaScript?
-// Explain the difference between function declarations and function expressions.
-// What is an Immediately Invoked Function Expression (IIFE)?
-// How does the this keyword work in JavaScript?
-// What is the difference between a pure function and an impure function?
-// How do you implement function currying in JavaScript?
-// What is function hoisting?
-// Explain the concept of an arrow function and its differences from traditional functions.
-// What is the difference between call, apply, and bind?
 
 //Question 11
 
@@ -235,3 +227,85 @@
 // add(10)
 // add(15)
 
+
+// object & Array
+
+// How can you copy an object in JavaScript without referencing the original object?
+// What is destructuring, and how is it used with arrays and objects?
+
+// Question 13
+// How can you copy an object in JavaScript without referencing the original object?
+
+//Spread Syntex
+
+// const details = {
+//     nmae : 'piyush' ,
+//     lastname : 'bora',
+//     age : 20 ,
+// }
+// const copy = {...details}
+
+
+// Question 14
+// // What is destructuring, and how is it used with arrays and objects?
+                             
+                     //Destructuring with Arrays
+
+//You can skip elements by leaving blank spaces in the destructuring assignment.
+
+// const number = [10,20,30,40]
+// const [ first,second, third,four] = number
+
+// console.log(first)
+// console.log(third)
+
+
+//   You can use the rest operator (...) to gather the remaining elements into a new array.
+
+// const number = [10,20,30,40]
+
+// const [first , second , ...rest] = number
+// console.log(first)
+
+ 
+                       //Destructuring with Objects
+
+// const person  = {
+//      name : 'piyush' ,
+//      age : 20 ,
+//      city : "New delhi" 
+// };
+
+// const{name ,age , city} = person;
+// console.log(name)
+// console.log(age)
+// console.log(city)
+
+
+//You can rename variables while destructuring an object by using the syntax propertyName: newVariableName.
+
+// const person = { name: 'Alice', age: 25, city: 'Wonderland' };
+
+// const { name: personName, age: personAge, city: personCity } = person;
+
+// console.log(personName);  
+// console.log(personAge);  
+// console.log(personCity);  
+
+
+
+// const person = {
+//     name: 'piyush',
+//     address: {
+//       city: 'newdelhi',
+//       zip: '11043'
+//     }
+//   };
+  
+//   // Destructure nested object
+//   const { name, address: { city, zip } } = person;
+  
+//   console.log(name)
+//   console.log(city); 
+//   console.log(zip);  
+  
