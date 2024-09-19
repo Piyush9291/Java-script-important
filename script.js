@@ -309,3 +309,84 @@
 //   console.log(city); 
 //   console.log(zip);  
   
+
+// Question 15
+// How do you add a method to an object in JavaScript?  
+
+// ==> You can add a method directly as a property when defining the object using the object literal syntax.
+
+// const person = {
+//     name : "piyush",
+//     lastname : "singh",
+//     age : 20 ,
+//     add : function(){
+//         console.log(`my name is ${this.name} and my age is ${this.age}`)
+//     }
+// }
+// person.add()
+
+        //    object constructor function
+
+// function student(first , last , age , cls) {
+//        this.firstname =  first ;
+//        this.lastname = last;
+//        this.age = age;
+//        this.class = cls;
+// }
+
+// var student1 = new student("piyush" , "singh" , 20 , "collage")
+
+// student1.address = "new delhi"
+
+// student1.name = function(){
+//     return this.firstname + " " +  this.lastname
+// }
+
+// console.log(student1.name())
+
+
+
+//  Question 16
+//How can you merge two or more arrays in JavaScript?
+
+//Using the Spread Operator (...)
+
+// const array1 = [1,2,3,4,5];
+// const array2 = [6,7,8,9,10];
+
+// console.log(...array1 , ...array2)
+
+//1. Using the concat() Method
+
+// const array1 = [1,2,3,4,5];
+// const array2 = [6,7,8,9,10];
+
+// const add = array1.concat(array2)
+// console.log(add)
+
+
+// Question 17
+ //How do you loop through an object’s properties in JavaScript?
+
+ // object key
+
+//  const person = {
+//     name: 'piyush',
+//     age: 20,
+//     city: 'NewDelhi'
+//   };
+
+//   Object.keys(person).forEach((i) => {
+//     console.log(person[i])
+//   })
+
+// object value
+
+// const person = {
+//     name: 'piyush',
+//     age: 20,
+//     city: 'NewDelhi'
+//   };
+
+// let value = Object.values(person);
+// console.log(value)
