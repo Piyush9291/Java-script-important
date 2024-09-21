@@ -390,3 +390,139 @@
 
 // let value = Object.values(person);
 // console.log(value)
+
+
+// Question 18
+// Explain the concept of prototypes in JavaScript.
+
+// function student(first,last,age){
+//     this.firstname = first;
+//     this.lastname = last;
+//     this.age = age;
+// }
+
+// student.prototype.city = "New delhi"
+
+// var student = new student('piysuh' , 'singh' , 20)
+// console.log(student)
+
+// Questiion 19
+//What is the difference between for, for...in, and for...of loops?
+
+
+//Question 20
+//What is the difference between Array.prototype.map() and Array.prototype.forEach()?
+
+// const arry = [1,2,3,4]
+
+// const arry2 = arry.map( (num) =>{
+//         return num * 2
+// })
+
+// console.log(arry2);
+
+// const arry = [1,2,3,4]
+
+// // arry.forEach((num) =>{
+// //     console.log(num * num)
+// // })
+
+
+// const arry = [1,2,3,4]
+// arry.forEach((num,index,array) =>{
+//         array[index] = num*2;
+// })
+
+// console.log(arry);
+
+//      Question 21
+//What is the difference between for, for...in, and for...of loops?
+
+// let arr = [2,3 ,4,5]
+
+// for(let i=0; i<arr.length; i++){
+//      console.log(arr * [i])
+// }
+
+// for(let x of arr){
+//         console.log(x)
+// }
+
+// for( let x in arr){
+//         console.log(x)
+// }
+
+// Quesdtion 22
+// How does the switch statement work in JavaScript?
+
+// let x = '2';
+
+// switch(x){
+//         case 2: 
+//         console.log('number 2')
+//         break;
+//         case '2':
+//         console.log('string "2"');
+//         break;
+// }
+
+// let gread = 'A'
+
+// switch(gread){
+//         case 'A':
+//         case 'B':
+//         case 'C':
+//                 console.log('pass')
+//         break;
+//         case 'D' :
+//         case 'F' :
+//         console.log('fail')
+//         break;
+//         default:
+//         console.log('invalid grade')
+// }
+
+
+//Question 23
+//how many typs of loops in javascript
+// 1 while loop
+// 2 do while loop
+// 3 for loop
+
+// while loop
+
+// let counter = 1;
+
+// while(counter <= 10){
+//      document.write("piyush")
+//      counter++;
+// }
+
+// let counter = 1;
+// let sum = 0
+// while(counter <= 100){
+//      if(counter % 2 === 0){
+//         sum = sum + counter
+//      }
+//      counter++;
+// }
+
+// document.write(sum)
+
+// dowhile
+
+// let counter = 1;
+
+// do{
+// document.write("piyush")
+//   counter++;
+// }while(counter <= 10)
+
+
+// For loop
+
+// for(let i=0; i<=10; i++){
+//    document.write("piyush")
+// }
+
+
