@@ -526,3 +526,71 @@
 // }
 
 
+// 24 Array destructuring
+
+// let arry = ["piyush" , "singh" , "20"]
+
+// let[name , lastname , age]=arry
+
+// console.log(name);
+
+// function arry(){
+//         return ["piyush","singh",20]
+// }
+
+// let[name , lastname , age] = arry();
+// console.log(age)
+
+
+// 25 object destructuring
+
+// let info = {
+//         name : "piyush",
+//         lastname : "singh ",
+//         age : 20
+// }
+
+// let{name, lastname, age} = info;
+// console.log(name)
+
+
+// 26 set timeout 
+
+//  let timeout = setTimeout(book , 5000)
+
+// function book(){
+//         alert("hi baby")
+// }
+
+// 27 set interval
+
+
+// let timeout = setInterval(alarm , 1000)
+
+// function alarm(){
+//        console.log(" goodn moring")
+// }
+
+// let btn = document.getElementById("btn")
+// btn.addEventListener("click" , () =>{
+//     clearInterval(timeout);
+// })
+
+
+// 28 asyncronous event
+
+// 1 callback
+// 2 callbackhall
+// 3 promises 
+// 4   promises api
+
+
+// 29 async and await
+
+// async await return promise
+// async print also promise without using .then() and cathch()
+// also using async for delaying time 
+
+
+// await wait for promise to return
+// await not working without async
