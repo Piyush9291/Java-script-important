@@ -585,6 +585,72 @@
 // 4   promises api
 
 
+// callback 
+
+// function fun (val){
+//   console.log("RAM RAM ")
+// }
+
+// function fun2(){
+//   console.log("KYA HAL CHAL")
+// }
+
+// function add(a,b,callback){
+//        console.log(a + b)
+//        callback();
+// }
+// add(2,2,fun)
+// add(10 , 20,fun2)
+
+// promises
+
+// two types of promises
+// 1 state
+// 2 result
+
+// let promise = new Promise((resolve, reject) => {
+//         alert("hellow")
+//         resolve(20)
+// })
+// console.log(" piyush")
+
+// setTimeout(() =>{
+//         console.log("bora")
+// } ,2000)
+
+// console.log("singh")
+// console.log(promise)
+
+
+// most important topics .then and .catch
+
+let p1 = new Promise((resolve, reject) => {
+        console.log("promise is pendding")
+
+        setTimeout(() =>{
+                console.log("i am a promise and i am a resolved")
+                resolve(true)
+        } , 5000)
+})
+
+let p2 = new Promise((resolve, reject) => {
+        console.log("promise is pendding")
+
+        setTimeout(() =>{
+                // console.log("i am a promise and i am a rejected")
+                resolve(new Error("i am error"))
+        } , 5000)
+})
+
+p1.then((value) =>{
+        console.log(value)
+})
+
+p2.catch((error) =>{
+        console.log("some error accured in p2")
+})
+
+
 // 29 async and await
 
 // async await return promise
@@ -594,3 +660,13 @@
 
 // await wait for promise to return
 // await not working without async
+
+// let api = "https://jsonplaceholder.typicode.com/comments"
+
+// let getdata = async () =>{
+//         let res = await fetch("https://jsonplaceholder.typicode.com/comments")
+//         let data = await res.json()
+//         console.log(data)
+// }
+// getdata();
+
