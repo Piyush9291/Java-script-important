@@ -624,31 +624,31 @@
 
 // most important topics .then and .catch
 
-let p1 = new Promise((resolve, reject) => {
-        console.log("promise is pendding")
+// let p1 = new Promise((resolve, reject) => {
+//         console.log("promise is pendding")
 
-        setTimeout(() =>{
-                console.log("i am a promise and i am a resolved")
-                resolve(true)
-        } , 5000)
-})
+//         setTimeout(() =>{
+//                 console.log("i am a promise and i am a resolved")
+//                 resolve(true)
+//         } , 5000)
+// })
 
-let p2 = new Promise((resolve, reject) => {
-        console.log("promise is pendding")
+// let p2 = new Promise((resolve, reject) => {
+//         console.log("promise is pendding")
 
-        setTimeout(() =>{
-                // console.log("i am a promise and i am a rejected")
-                resolve(new Error("i am error"))
-        } , 5000)
-})
+//         setTimeout(() =>{
+//                 // console.log("i am a promise and i am a rejected")
+//                 resolve(new Error("i am error"))
+//         } , 5000)
+// })
 
-p1.then((value) =>{
-        console.log(value)
-})
+// p1.then((value) =>{
+//         console.log(value)
+// })
 
-p2.catch((error) =>{
-        console.log("some error accured in p2")
-})
+// p2.catch((error) =>{
+//         console.log("some error accured in p2")
+// })
 
 
 // 29 async and await
@@ -670,3 +670,32 @@ p2.catch((error) =>{
 // }
 // getdata();
 
+
+
+// reduce function
+
+// let arr = [1,2,3,4,44,,55,57,77]
+
+// let arr1 = arr.filter( (val) => val > 10)
+// console.log(arr1);
+
+
+// Question: Write a function that takes a string as input and returns it reversed.
+
+
+// function reverce(ele){
+//    return ele.split('').reverce().join();
+// }
+// console.log(reverce("hellow"));
+
+
+// Question: Write a function that finds the maximum number in an array.
+
+// let arr = [1,2,3,4,5,6]
+
+// function findMax(arr) {
+//         return Math.max(...arr);
+//     }
+    
+//     console.log(findMax([3, 5, 1, 8, 2])); // Output: 8
+    
