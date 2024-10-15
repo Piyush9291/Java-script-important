@@ -699,3 +699,69 @@
     
 //     console.log(findMax([3, 5, 1, 8, 2])); // Output: 8
     
+
+
+// 31 What is the this keyword in JavaScript, and how does it work?
+
+// const obj = {
+//         name : "piyush" ,
+//         lastname : "bora ",
+//         greet : function (){
+//                 console.log(this.name);
+//         }
+// }
+// obj.greet();
+
+
+//32  Asynchronous JavaScript:
+
+// setTimeout(() =>{
+//     console.log("i my name is piyush")
+
+// },2000)
+
+// console.log("end");
+
+
+// 33 What is the difference between var, let, and const?
+
+
+// . var is function scope , can be re-decleard and update;
+// . let is block-scoped , can be upadte but not re-decleard in the same scope;
+// .const is blocl-scoped , cannot be update or re-declerd . variable decleard with \;
+// . const must be initialized during decleartion .
+
+
+// map
+// const numbers = [1, 2, 3, 4, 5];
+
+// const dobule = numbers.map(num => num *2)
+// console.log(dobule)
+
+// filter
+// const numberss = [1, 2, 3, 4, 5];
+// const even = numberss.filter(num => num % 2 === 0);
+// console.log(even)
+
+// Destructuring
+
+// const array = [1,"piyush",3]
+// const [first, second , thired] = array
+
+// console.log(first)
+// console.log(second)
+// console.log(thired)
+
+// let obj = {
+//         name : "piyush",
+//         lastname : "bora",
+//         age : 20
+// }
+
+// let {name , lastname ,age} = obj;
+
+// console.log(name)
+// console.log(lastname)
+// console.log(age)
+
+
